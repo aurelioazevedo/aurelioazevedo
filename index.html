@@ -12,7 +12,7 @@
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Favicon -->
     <link rel="icon" href="http://googleusercontent.com/file_content/2" type="image/png">
@@ -70,15 +70,17 @@
             <section id="quem-sou-eu" class="bg-gray-900/50 border border-gray-700/50 p-8 sm:p-12 rounded-2xl shadow-lg">
                 <div class="grid md:grid-cols-3 gap-8 items-center">
                     <div class="md:col-span-1 flex justify-center">
-                         <img src="http://googleusercontent.com/file_content/2" alt="Símbolo A A" class="h-32 w-32" onerror="this.style.display='none'; this.onerror=null; this.src='https://placehold.co/128x128/1f2937/FFFFFF?text=AA'">
+                         <img src="http://googleusercontent.com/file_content/5" alt="Foto de Aurélio Azevedo" class="h-40 w-40 rounded-full object-cover border-2 border-gray-700 shadow-lg" onerror="this.style.display='none'; this.onerror=null; this.src='https://placehold.co/160x160/1f2937/FFFFFF?text=Foto'">
                     </div>
                     <div class="md:col-span-2">
-                        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Quem sou eu</h2>
-                        <h3 class="text-xl font-bold text-sky-400">Aurélio Azevedo</h3>
+                        <h2 class="text-sm font-light text-gray-400 uppercase tracking-widest mb-2">Quem sou eu</h2>
+                        <h3 class="text-3xl font-bold text-white mb-4">Aurélio Azevedo</h3>
                         <p class="font-medium text-gray-400 mb-4">Psicólogo Clínico (CRP 09/9699)</p>
                         <p class="mb-2">Especialista em Hipnoterapia, TCC (Terapia Cognitivo-Comportamental) e Neurociência Aplicada à Mudança.</p>
                         <p class="mb-4">São mais de 15 anos de experiência clínica ajudando pessoas reais — como você — a superarem dores emocionais, enfrentarem suas sombras e retomarem o controle sobre suas vidas.</p>
-                        <p class="font-semibold text-white">Acredito em um processo terapêutico acolhedor, profundo e transformador. Sem julgamentos, sem fórmulas prontas, com ética e sensibilidade. Aqui, você é ouvido de verdade.</p>
+                        <div class="mt-6 p-4 border border-gray-700 rounded-lg">
+                            <p class="text-gray-300">Acredito em um processo terapêutico acolhedor, profundo e transformador. Sem julgamentos, sem fórmulas prontas, com ética e sensibilidade. Aqui, você é ouvido de verdade.</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -205,10 +207,10 @@
 
     <!-- Scheduling Modal -->
     <div id="schedule-modal" class="modal-overlay fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4 opacity-0 pointer-events-none">
-        <div class="modal-container bg-gray-800 rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] transform scale-95 opacity-0">
-            <div class="flex justify-between items-center p-4 border-b border-gray-700">
-                <h3 class="text-xl font-bold text-white">Agende sua Sessão</h3>
-                <button type="button" class="js-close-modal text-gray-400 hover:text-white text-3xl leading-none">&times;</button>
+        <div class="modal-container bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] transform scale-95 opacity-0">
+            <div class="flex justify-between items-center p-4 border-b border-gray-200">
+                <h3 class="text-xl font-bold text-gray-900">Agende sua Sessão</h3>
+                <button type="button" class="js-close-modal text-gray-500 hover:text-gray-900 text-3xl leading-none">&times;</button>
             </div>
             <div class="p-2 h-[calc(90vh-70px)]">
                  <iframe src="https://calendar.google.com/calendar/appointments/AcZssZ04A7d1kXGZ5B4btp65hc6GTn-IJwboYJNj1FA=?gv=true" class="w-full h-full rounded-b-xl" style="border: 0" frameborder="0"></iframe>
